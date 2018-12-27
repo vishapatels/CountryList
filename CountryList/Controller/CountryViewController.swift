@@ -13,10 +13,8 @@ class CountryViewController: UIViewController {
 
   @IBOutlet weak var tableView: UITableView!
   var countryListModel = CountryListModel()
-  var myData: Result?
-  var result: [Result]? {
+  var countryListDataProvider: CountryListDataProvider? {
     didSet {
-      print("set tableView reoload")
       tableView.reloadData()
     }
   }
@@ -34,22 +32,23 @@ class CountryViewController: UIViewController {
 extension CountryViewController: UITableViewDataSource, UITableViewDelegate
 {
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return result?.count ?? 0
+    return countryListDataProvider?.countryNames.count ?? 0
   }
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let myCell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "CountryList")
-    myCell.textLabel?.text = result![indexPath.row].name
+    myCell.textLabel?.text = countryListDataProvider?.countryNames[indexPath.row] ?? ""
     return myCell
     
   }
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-    myData = result![indexPath.row]
+    //myData = result![indexPath.row]
     performSegue(withIdentifier: "ExchangeRate", sender: self)
   }
+    
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     let exchangeRateViewController: ExchangeRateViewController = segue.destination as! ExchangeRateViewController
-    exchangeRateViewController.dataResult = myData!
+    //exchangeRateViewController.dataResult = myData!
   }
 }
 
@@ -57,13 +56,10 @@ extension CountryViewController: UITableViewDataSource, UITableViewDelegate
 extension CountryViewController {
 
   private func getCountries() {
-    countryListModel.getCountries(completionHandler: { [weak self] (result, isSuccess) in
-      if let result = result, isSuccess {
-        self?.result = result
-      } else {
-        self?.showError()
-      }
-    })
+    countryListModel.getCountries() { [weak self] countryListDataProvider in
+        guard let `self` = self else  { return }
+        self.countryListDataProvider = countryListDataProvider
+    }
   }
 }
 

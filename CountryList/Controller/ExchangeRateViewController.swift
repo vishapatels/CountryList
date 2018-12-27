@@ -38,13 +38,13 @@ extension ExchangeRateViewController
 {
   func getExchangeRate(id: Result){
     
-    exchangeRateListModel.getExchangeRate(sourceId: 41, destinationId: (dataResult?.id)!, completionHandler: { [weak self] isSuccess in
-      if let exchangeRateList = self?.exchangeRateListModel.exchangeRateList, isSuccess {
-          self?.exchangeRateValue.text =  "\(exchangeRateList.currencyRate)"
-      } else {
-        self?.showError()
-      }
-    })
+//    exchangeRateListModel.getExchangeRate(sourceId: 41, destinationId: (dataResult?.id)!, completionHandler: { [weak self] isSuccess in
+//      if let exchangeRateList = self?.exchangeRateListModel.exchangeRateList, isSuccess {
+//          self?.exchangeRateValue.text =  "\(exchangeRateList.currencyRate)"
+//      } else {
+//        self?.showError()
+//      }
+//    })
 }
   func showError() {
     print("error")

@@ -8,16 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		101F12BD21D2F29500E546E5 /* ExchangeRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101F12BC21D2F29500E546E5 /* ExchangeRateViewController.swift */; };
-		101F12C021D2F5AB00E546E5 /* ExchangeRate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101F12BE21D2F5AB00E546E5 /* ExchangeRate.storyboard */; };
 		101F12C221D2FAE300E546E5 /* ExchangeRateListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101F12C121D2FAE300E546E5 /* ExchangeRateListModel.swift */; };
 		101F12C421D3084400E546E5 /* ExchangeRateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101F12C321D3084400E546E5 /* ExchangeRateList.swift */; };
 		101F12C621D3271400E546E5 /* BeneficiaryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101F12C521D3271400E546E5 /* BeneficiaryListViewController.swift */; };
-		101F12C921D3272D00E546E5 /* BeneficiaryList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101F12C721D3272D00E546E5 /* BeneficiaryList.storyboard */; };
 		101F12CB21D3294900E546E5 /* BeneficiaryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101F12CA21D3294900E546E5 /* BeneficiaryList.swift */; };
 		101F12CD21D32A8900E546E5 /* BeneficiaryListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101F12CC21D32A8900E546E5 /* BeneficiaryListModel.swift */; };
 		10AD4BB121D2C79800A863F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD4BB021D2C79800A863F9 /* AppDelegate.swift */; };
 		10AD4BB321D2C79800A863F9 /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD4BB221D2C79800A863F9 /* CountryViewController.swift */; };
-		10AD4BB621D2C79800A863F9 /* CountryList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10AD4BB421D2C79800A863F9 /* CountryList.storyboard */; };
 		10AD4BB821D2C79800A863F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10AD4BB721D2C79800A863F9 /* Assets.xcassets */; };
 		10AD4BBB21D2C79800A863F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10AD4BB921D2C79800A863F9 /* LaunchScreen.storyboard */; };
 		10AD4BC721D2C8D500A863F9 /* CodeServiceCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD4BC621D2C8D500A863F9 /* CodeServiceCodable.swift */; };
@@ -26,22 +23,24 @@
 		10AD4BCD21D2C96B00A863F9 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD4BCC21D2C96B00A863F9 /* Router.swift */; };
 		10AD4BD121D2CF8300A863F9 /* CountryListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD4BD021D2CF8300A863F9 /* CountryListModel.swift */; };
 		10AD4BD421D2D13600A863F9 /* CountryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD4BD321D2D13600A863F9 /* CountryList.swift */; };
+		10D6E6AA21D42FFE00BEBE72 /* ManagerInjected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D6E6A921D42FFE00BEBE72 /* ManagerInjected.swift */; };
+		10D6E6AC21D4302600BEBE72 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D6E6AB21D4302600BEBE72 /* APIManager.swift */; };
+		10D6E6B321D43A3300BEBE72 /* BeneficiaryList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10D6E6AD21D43A3200BEBE72 /* BeneficiaryList.storyboard */; };
+		10D6E6B421D43A3300BEBE72 /* ExchangeRate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10D6E6AF21D43A3300BEBE72 /* ExchangeRate.storyboard */; };
+		10D6E6B521D43A3300BEBE72 /* CountryList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10D6E6B121D43A3300BEBE72 /* CountryList.storyboard */; };
 		10E1794121D3318F00725BB2 /* ExchangeRateListModel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E1794021D3318F00725BB2 /* ExchangeRateListModel+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		101F12BC21D2F29500E546E5 /* ExchangeRateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateViewController.swift; sourceTree = "<group>"; };
-		101F12BF21D2F5AB00E546E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CountryList/View/Base.lproj/ExchangeRate.storyboard; sourceTree = "<group>"; };
 		101F12C121D2FAE300E546E5 /* ExchangeRateListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateListModel.swift; sourceTree = "<group>"; };
 		101F12C321D3084400E546E5 /* ExchangeRateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateList.swift; sourceTree = "<group>"; };
 		101F12C521D3271400E546E5 /* BeneficiaryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeneficiaryListViewController.swift; sourceTree = "<group>"; };
-		101F12C821D3272D00E546E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CountryList/View/CountryList/View/Base.lproj/BeneficiaryList.storyboard; sourceTree = "<group>"; };
 		101F12CA21D3294900E546E5 /* BeneficiaryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeneficiaryList.swift; sourceTree = "<group>"; };
 		101F12CC21D32A8900E546E5 /* BeneficiaryListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeneficiaryListModel.swift; sourceTree = "<group>"; };
 		10AD4BAD21D2C79800A863F9 /* CountryList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountryList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10AD4BB021D2C79800A863F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10AD4BB221D2C79800A863F9 /* CountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
-		10AD4BB521D2C79800A863F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CountryList.storyboard; sourceTree = "<group>"; };
 		10AD4BB721D2C79800A863F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10AD4BBA21D2C79800A863F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10AD4BBC21D2C79800A863F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,11 @@
 		10AD4BCC21D2C96B00A863F9 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		10AD4BD021D2CF8300A863F9 /* CountryListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListModel.swift; sourceTree = "<group>"; };
 		10AD4BD321D2D13600A863F9 /* CountryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryList.swift; sourceTree = "<group>"; };
+		10D6E6A921D42FFE00BEBE72 /* ManagerInjected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerInjected.swift; sourceTree = "<group>"; };
+		10D6E6AB21D4302600BEBE72 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		10D6E6AE21D43A3200BEBE72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/BeneficiaryList.storyboard; sourceTree = "<group>"; };
+		10D6E6B021D43A3300BEBE72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ExchangeRate.storyboard; sourceTree = "<group>"; };
+		10D6E6B221D43A3300BEBE72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CountryList.storyboard; sourceTree = "<group>"; };
 		10E1794021D3318F00725BB2 /* ExchangeRateListModel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExchangeRateListModel+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +88,7 @@
 		10AD4BAF21D2C79800A863F9 /* CountryList */ = {
 			isa = PBXGroup;
 			children = (
+				10D6E6A821D42FF000BEBE72 /* DI */,
 				10AD4BC421D2C82C00A863F9 /* APIModel */,
 				10AD4BD221D2D12000A863F9 /* Model */,
 				10AD4BC521D2C83500A863F9 /* View Model */,
@@ -101,9 +106,9 @@
 		10AD4BC221D2C81700A863F9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				101F12C721D3272D00E546E5 /* BeneficiaryList.storyboard */,
-				101F12BE21D2F5AB00E546E5 /* ExchangeRate.storyboard */,
-				10AD4BB421D2C79800A863F9 /* CountryList.storyboard */,
+				10D6E6AD21D43A3200BEBE72 /* BeneficiaryList.storyboard */,
+				10D6E6B121D43A3300BEBE72 /* CountryList.storyboard */,
+				10D6E6AF21D43A3300BEBE72 /* ExchangeRate.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 				10AD4BC621D2C8D500A863F9 /* CodeServiceCodable.swift */,
 				10AD4BC821D2C92400A863F9 /* APIService.swift */,
 				10AD4BCC21D2C96B00A863F9 /* Router.swift */,
+				10D6E6AB21D4302600BEBE72 /* APIManager.swift */,
 			);
 			path = APIModel;
 			sourceTree = "<group>";
@@ -147,6 +153,14 @@
 				101F12CA21D3294900E546E5 /* BeneficiaryList.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		10D6E6A821D42FF000BEBE72 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				10D6E6A921D42FFE00BEBE72 /* ManagerInjected.swift */,
+			);
+			path = DI;
 			sourceTree = "<group>";
 		};
 		10E1793F21D3317900725BB2 /* Extensions */ = {
@@ -217,10 +231,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				10AD4BBB21D2C79800A863F9 /* LaunchScreen.storyboard in Resources */,
-				101F12C021D2F5AB00E546E5 /* ExchangeRate.storyboard in Resources */,
+				10D6E6B421D43A3300BEBE72 /* ExchangeRate.storyboard in Resources */,
+				10D6E6B521D43A3300BEBE72 /* CountryList.storyboard in Resources */,
 				10AD4BB821D2C79800A863F9 /* Assets.xcassets in Resources */,
-				101F12C921D3272D00E546E5 /* BeneficiaryList.storyboard in Resources */,
-				10AD4BB621D2C79800A863F9 /* CountryList.storyboard in Resources */,
+				10D6E6B321D43A3300BEBE72 /* BeneficiaryList.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,12 +250,14 @@
 				10AD4BB321D2C79800A863F9 /* CountryViewController.swift in Sources */,
 				101F12C221D2FAE300E546E5 /* ExchangeRateListModel.swift in Sources */,
 				10AD4BC921D2C92400A863F9 /* APIService.swift in Sources */,
+				10D6E6AA21D42FFE00BEBE72 /* ManagerInjected.swift in Sources */,
 				101F12CB21D3294900E546E5 /* BeneficiaryList.swift in Sources */,
 				10AD4BCB21D2C94B00A863F9 /* Loggable.swift in Sources */,
 				10AD4BD421D2D13600A863F9 /* CountryList.swift in Sources */,
 				10AD4BCD21D2C96B00A863F9 /* Router.swift in Sources */,
 				101F12BD21D2F29500E546E5 /* ExchangeRateViewController.swift in Sources */,
 				10AD4BB121D2C79800A863F9 /* AppDelegate.swift in Sources */,
+				10D6E6AC21D4302600BEBE72 /* APIManager.swift in Sources */,
 				10AD4BD121D2CF8300A863F9 /* CountryListModel.swift in Sources */,
 				10E1794121D3318F00725BB2 /* ExchangeRateListModel+Extensions.swift in Sources */,
 				101F12C621D3271400E546E5 /* BeneficiaryListViewController.swift in Sources */,
@@ -252,36 +268,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		101F12BE21D2F5AB00E546E5 /* ExchangeRate.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				101F12BF21D2F5AB00E546E5 /* Base */,
-			);
-			name = ExchangeRate.storyboard;
-			sourceTree = "<group>";
-		};
-		101F12C721D3272D00E546E5 /* BeneficiaryList.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				101F12C821D3272D00E546E5 /* Base */,
-			);
-			name = BeneficiaryList.storyboard;
-			sourceTree = "<group>";
-		};
-		10AD4BB421D2C79800A863F9 /* CountryList.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				10AD4BB521D2C79800A863F9 /* Base */,
-			);
-			name = CountryList.storyboard;
-			sourceTree = "<group>";
-		};
 		10AD4BB921D2C79800A863F9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				10AD4BBA21D2C79800A863F9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		10D6E6AD21D43A3200BEBE72 /* BeneficiaryList.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10D6E6AE21D43A3200BEBE72 /* Base */,
+			);
+			name = BeneficiaryList.storyboard;
+			sourceTree = "<group>";
+		};
+		10D6E6AF21D43A3300BEBE72 /* ExchangeRate.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10D6E6B021D43A3300BEBE72 /* Base */,
+			);
+			name = ExchangeRate.storyboard;
+			sourceTree = "<group>";
+		};
+		10D6E6B121D43A3300BEBE72 /* CountryList.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10D6E6B221D43A3300BEBE72 /* Base */,
+			);
+			name = CountryList.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

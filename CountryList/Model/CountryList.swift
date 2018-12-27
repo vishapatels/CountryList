@@ -6,7 +6,7 @@ import Foundation
 
 struct CountryList: CoreServiceCodable {
   let statusCode: Int
-  let results: [Result]
+  let results: [Result]?
   
   enum CodingKeys: String, CodingKey {
     case statusCode = "status_code"
@@ -29,4 +29,14 @@ struct Result: CoreServiceCodable {
     case middleNameMandatory = "middle_name_mandatory"
     case mobileNumberLength = "mobile_number_length"
   }
+}
+
+
+typealias CountryInfoTuple = (countryId: Int, countryName: String)
+
+extension Array where Element == Result {
+    
+    var countryInfo: [CountryInfoTuple] {
+        return compactMap { (countryId: $0.id, countryName: $0.name) }
+    }
 }

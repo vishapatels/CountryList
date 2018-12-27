@@ -20,13 +20,13 @@ class BeneficiaryListViewController: UIViewController {
   }
   override func viewDidLoad() {
       super.viewDidLoad()
-    beneficiaryModel.getBeneficiaryList(destinationId: destinationId, paymentMethod: 3, completionHandler: { [weak self] (result, isSuccess) in
-      if let result = result, isSuccess {
-       // self?.result =
-      } else {
-        self?.showError()
-      }
-    })
+//    beneficiaryModel.getBeneficiaryList(destinationId: destinationId, paymentMethod: 3, completionHandler: { [weak self] (result, isSuccess) in
+//      if let result = result, isSuccess {
+//       // self?.result =
+//      } else {
+//        self?.showError()
+//      }
+//    })
     }
   func showError() {
     print("error")
